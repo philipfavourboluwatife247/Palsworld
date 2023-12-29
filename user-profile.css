@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#purple-bar{
+
+  height: 50px;
+  background-color: #462c7d;
+  color: #d9dfeb;
+}
+body{
+  font-family: tahoma;
+  background-color: #bcb3d0;
+}
+
+#bar-content{
+  width: 800px;
+  margin: auto;
+  font-size: 30px;
+}
+
+#search-box{
+
+  width: 400px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  background-image: url(search.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#userimage-bar{
+
+  width: 50px;
+  float: right;
+}
+
+#content{
+    
+  width: 800px;
+  margin: auto;
+  min-height: 400px;
+}
+
+#first-content{
+  background-color: #fff;
+  text-align: center;
+  color: #462c7d;
+}
+
+#profile-pic{
+
+  width: 150px;
+  margin-top: -200px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+#menu-buttons{
+
+  width: 100px;
+  display: inline-block;
+  margin: 2px;
+}
+
+#friends-img{
+  width: 75px;
+  float: left;
+  margin: 8px;
+}
+
+#friends-bar{
+  background-color: #fff;
+  min-height: 400px;
+  margin-top: 20px;
+  color: #aaa;
+  padding: 8px;
+}
+
+#friends{
+  clear: both;
+  font-size: 12px;
+  font-weight: bold;
+  color: #462c7d;
+}
+
+textarea{
+  width: 100%;
+  border: none;
+  font-family: tahoma;
+  font-size: 14px;
+  height: 60px;
+}
+
+#post-button{
+  float: right;
+  background-color: #462c7d;
+  border: none;
+  color: #fff;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 2px;
+  width: 50px;
+}
+
+#post-bar{
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+#post{
+  padding: 4px;
+  font-size: 13px;
+  display: flex;
+  margin-bottom: 20px;
+}

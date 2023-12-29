@@ -1,0 +1,266 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Header styles */
+header {
+    background-color: #462c7d;
+    color: #fff;
+    padding: 1em;
+}
+
+.logo img {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#signup-bar {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #462c7d;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #bcb3d0;
+    color: #462c7d;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.cta-button-below {
+    display: inline-block;
+    background-color: #462c7d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features section styles */
+.features {
+    flex-direction: column;
+    padding: 60px 20px;
+    background-color: #bcb3d0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* How It Works section styles */
+.how-it-works {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #c9c7ce;
+    color: #462c7d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.how-it-works h2 {
+font-weight: bolder;
+}
+
+/* Signup section styles */
+.signup {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #bcb3d0;
+}
+
+.signup h2,
+.signup p {
+    color: #000;
+}
+
+/* Footer styles */
+footer {
+    background-color: #462c7d;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+
+/* Add the styles for header, hero, features, how-it-works, signup, and footer */
+/* ... */
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+    .logo img {
+        height: 30px;
+        margin-left: 5px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin-right: 6px;
+        margin-left: 2px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 1.8em;
+    }
+
+    .hero p,
+    .cta-button {
+        font-size: 0.9em;
+    }
+    
+    #signup-bar {
+    float: right;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 10px;
+    }
+    /* Add other mobile-specific styles as needed */
+}
+
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+    /* ... Your existing mobile styles ... */
+
+    /* Header */
+    header {
+        padding: 1em 0;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+
+    .hero p,
+    .cta-button {
+        font-size: 1.2em;
+    }
+
+    /* Features Section */
+    .feature {
+        margin-bottom: 20px;
+    }
+
+    /* How It Works Section */
+    .how-it-works {
+        padding: 60px 20px;
+    }
+
+    /* Signup Section */
+    .signup {
+        padding: 60px 20px;
+    }
+
+    .signup h2,
+    .signup p {
+        font-size: 1.2em;
+    }
+
+    .cta-button-below {
+        font-size: 1.2em;
+    }
+
+    /* Footer */
+    footer {
+        padding: 1em 0;
+    }
+}
+
+
+
+
+
+
+
+
